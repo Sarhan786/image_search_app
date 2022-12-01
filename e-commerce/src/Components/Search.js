@@ -84,7 +84,7 @@ export default function Search() {
                     src={elem.urls.small}
                     onClick={() => {
                       bookm.push(elem);
-                      console.log(bookm);
+                      alert("your img is bookmarked");
                       setBookMarkIMg(bookm);
                     }}
                     alt=""
